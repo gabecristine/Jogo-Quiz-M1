@@ -1,0 +1,100 @@
+using System;
+
+namespace Batatinha
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Olá, bem vindo ao teste de Inglês!");
+            int totalDeAcertos = 0;
+
+            Console.WriteLine("Como se escreve Duzentos e  Trinta e Dois?");
+
+            Console.WriteLine("1.Two Hundred and Thirty Two");
+            Console.WriteLine("2.Two Thousand and Thirty Two");
+            Console.WriteLine("3.Nine Hundred and Eleven");
+            Console.WriteLine("4.Hundred Two and Twenty Two");
+
+            var resposta1 = Console.ReadLine();
+
+            if(resposta1 == "1"){
+            totalDeAcertos++;
+            }
+
+
+            Console.Clear();
+
+
+            Console.WriteLine("Qual é a tradução correta para 'Eu estudei matemática ontem'?");
+
+            Console.WriteLine("1.I study math yesterday");
+            Console.WriteLine("2.I can study math yesterday");
+            Console.WriteLine("3.I studied math yesterday");
+            Console.WriteLine("4.Did I study math yesterday");
+
+            var resposta2 = Console.ReadLine();
+
+            if(resposta2 == "3"){
+            totalDeAcertos++;
+            }
+
+
+            Console.Clear();
+
+
+            Console.WriteLine("'Maria was an engineer' O que esta frase significa?");
+
+            Console.WriteLine("1.Maria está cansada");
+            Console.WriteLine("2.Maria é uma policial");
+            Console.WriteLine("3.Maria era uma engenheira");
+            Console.WriteLine("4.Maria era mecânica");
+
+            var resposta3 = Console.ReadLine();
+
+            if(resposta3 == "3"){
+            totalDeAcertos++;
+            }
+
+
+            Console.Clear();
+
+
+            Console.WriteLine("Qual destas palavras demonstra uma possibilidade?");
+
+            Console.WriteLine("1.Should");
+            Console.WriteLine("2.Must");
+            Console.WriteLine("3.Have");
+            Console.WriteLine("4.May");
+
+            var resposta4 = Console.ReadLine();
+
+            if(resposta4 == "4"){
+            totalDeAcertos++;
+            }
+
+
+            Console.Clear();
+
+
+            Console.WriteLine("Como é conjugado o verbo 'Beber' no passado?");
+
+            Console.WriteLine("1.Drunk");
+            Console.WriteLine("2.Drank");
+            Console.WriteLine("3.Drinked");
+            Console.WriteLine("4.Did drunk");
+
+            var resposta5 = Console.ReadLine();
+
+            if(resposta5 == "2"){
+            totalDeAcertos++;
+            }
+
+
+            Console.Clear();
+
+            Console.WriteLine("Parabéns, você concluiu o teste!!!");
+            Console.WriteLine("Você teve um total de: "+totalDeAcertos+" acertos.");
+        }
+    }
+}
